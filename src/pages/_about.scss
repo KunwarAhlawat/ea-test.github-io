@@ -1,3 +1,37 @@
+//about hero
+.about-hero-area{
+    background-color: $primary-color;
+    .hero-text{
+        color: $text-light;
+        h2{
+            font-weight: $bold;
+        }
+    }
+}
+
+//about area style
+.about-area{
+
+    .about-text{
+      display: flex;
+      flex-direction: column;
+     justify-content: center;
+     height: 100%;
+  p{
+      margin: 10px 0px 20px 0px;
+  }}
+  img{
+      background-color: green;
+  }
+  button{
+      align-self: start;
+  }
+  
+  
+  }
+
+
+  //about why us area style
 .about-why-us-area{
     .why-us-item{
         display: flex;
@@ -5,9 +39,8 @@
         justify-content:space-between;
         align-items: start;
         padding: 20px;
-        background-color: green;
-        color: $light;
-        margin-top: 20px;
+        margin-top: 24px;
+        box-shadow: $shadow-2;
      
         .why-us-img{
             background-color: $light;
@@ -18,8 +51,19 @@
             i{
                 font-size: 32px;
            
-                color: $dark;
+                color: $accent-color;
             }
+
+          
+        }
+        h6{
+            font-weight: $bold;
+            color: $text-dark;
+        }
+        p{
+            margin-top: 8px;
+            font-weight: $reg;
+            color: $text-dark;
         }
     }
 }
