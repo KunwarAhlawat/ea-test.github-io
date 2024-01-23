@@ -1,5 +1,32 @@
 .course-view-hero-area{
-background-color: green;
+background-color: $primary-color;
+.hero-text{
+color: $text-light;
+p{
+    margin: 20px 0px 0px 0px;
+    font-weight: $bold;
+}
+.hero-price-area{
+
+    span:nth-child(1){
+        font-size: 1.5rem;
+      
+    }
+    span:nth-child(2){
+        font-size: 1rem;
+        text-decoration: line-through;
+        margin: 0px 20px;
+    }
+    span:nth-child(3){
+        font-size: 1rem;
+        background-color: $accent-color;
+        color: $text-light;
+        padding: 5px 10px;
+        border-radius: 5px;
+       
+    }
+}
+}
 }
 
 .course-view-content-area{}

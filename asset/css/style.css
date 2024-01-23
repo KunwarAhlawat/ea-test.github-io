@@ -33,19 +33,16 @@ h6 {
 
 h1 {
   font-size: 2.986rem;
-  background-color: green;
 }
 
 @media only screen and (min-width: 600px) and (max-width: 1024px) {
   h1 {
     font-size: 2.6874rem;
-    background-color: blue;
   }
 }
 @media only screen and (max-width: 599px) {
   h1 {
     font-size: 2.388rem;
-    background-color: black;
   }
 }
 h2 {
@@ -483,10 +480,10 @@ li {
 }
 
 .course-list-hero-area {
-  background-color: #333333;
+  background-color: #2f207d;
 }
 .course-list-hero-area .hero-text {
-  color: #FEF2F2;
+  color: #fff;
   padding: 50px 0px;
 }
 .course-list-hero-area .hero-text p {
@@ -494,58 +491,60 @@ li {
 }
 
 .course-list-area .course-item {
-  padding: 20px;
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 10px;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+  border-radius: 5px;
 }
 .course-list-area .course-item .course-item-img {
   object-fit: contain;
 }
 .course-list-area .course-item .course-item-img img {
-  border-radius: 10px;
+  border-radius: 5px;
 }
 .course-list-area .course-item .course-item-text {
+  padding: 0px 10px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
+.course-list-area .course-item .course-item-text h5 {
+  margin: 8px 0px;
+  color: #2f207d;
+  font-weight: 700;
+}
 .course-list-area .course-item .course-item-text p {
-  font-weight: 500;
-  font-size: 1.25rem;
+  margin-top: 10px;
+  font-weight: 600;
 }
 .course-list-area .course-item .course-item-text .included-text {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin-top: 10px;
-}
-.course-list-area .course-item .course-item-text .included-text .left-text {
-  margin-right: 20px;
-}
-.course-list-area .course-item .course-item-text .included-text .left-text li {
-  margin-bottom: 8px;
 }
 .course-list-area .course-item .course-item-text .included-text .left-text li i {
-  color: #4CAF50;
+  color: #47c341;
+  font-size: 0.75rem;
   margin-right: 8px;
 }
 .course-list-area .course-item .course-item-text .included-text .left-text li span {
-  font-size: 0.875rem;
-  font-weight: 600;
-}
-.course-list-area .course-item .course-item-text .included-text .right-text li {
-  margin-bottom: 8px;
+  font-size: 0.75rem;
+  font-weight: 700;
 }
 .course-list-area .course-item .course-item-text .included-text .right-text li i {
-  color: #4CAF50;
+  color: #47c341;
+  font-size: 0.75rem;
   margin-right: 8px;
 }
 .course-list-area .course-item .course-item-text .included-text .right-text li span {
-  font-size: 0.875rem;
-  font-weight: 600;
+  font-size: 0.75rem;
+  font-weight: 700;
+}
+.course-list-area .course-item .course-item-price {
+  padding: 0px 10px;
+  margin-top: 20px;
 }
 .course-list-area .course-item .course-item-price p {
-  font-size: 1.25rem;
-  font-weight: 600;
+  font-weight: 700;
 }
 .course-list-area .course-item .course-item-price ul {
   display: flex;
@@ -557,11 +556,14 @@ li {
   display: inline-block;
 }
 .course-list-area .course-item .course-item-price ul li:nth-child(1) {
-  font-size: 1.25rem;
-  font-weight: bold;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #333;
 }
 .course-list-area .course-item .course-item-price ul li:nth-child(2) {
   font-size: 1rem;
+  color: #333;
+  font-weight: 600;
   text-decoration: line-through;
 }
 .course-list-area .course-item .course-item-price ul li:nth-child(3) {
@@ -574,12 +576,34 @@ li {
 .course-list-area .course-item .course-item-button {
   margin-top: 20px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
 }
 
 .course-view-hero-area {
-  background-color: green;
+  background-color: #2f207d;
+}
+.course-view-hero-area .hero-text {
+  color: #fff;
+}
+.course-view-hero-area .hero-text p {
+  margin: 20px 0px 0px 0px;
+  font-weight: 700;
+}
+.course-view-hero-area .hero-text .hero-price-area span:nth-child(1) {
+  font-size: 1.5rem;
+}
+.course-view-hero-area .hero-text .hero-price-area span:nth-child(2) {
+  font-size: 1rem;
+  text-decoration: line-through;
+  margin: 0px 20px;
+}
+.course-view-hero-area .hero-text .hero-price-area span:nth-child(3) {
+  font-size: 1rem;
+  background-color: #47c341;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
 }
 
 .course-view-course-include-area h4 {

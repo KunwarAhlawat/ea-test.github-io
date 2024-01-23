@@ -25,7 +25,6 @@ h6 {
 
 h1 {
     font-size: 2.986rem;
-    background-color: green;
 }
 
 // Media query for tablets (portrait and landscape)
@@ -33,7 +32,6 @@ h1 {
 
     h1 {
         font-size: 2.6874rem;
-        background-color: blue;
 
     }
 
@@ -43,7 +41,6 @@ h1 {
 @media only screen and (max-width: 599px) {
     h1 {
         font-size: 2.388rem;
-        background-color: black;
     }
 
 }
