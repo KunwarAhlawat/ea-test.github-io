@@ -1,0 +1,19 @@
+.contact-info-area{
+    .contact-info-item{
+        padding: 20px;
+        background-color: $dark;
+        color: $light;
+        margin-bottom: 20px;
+        i{
+            font-size: 20px;
+            margin-right: 8px;
+        }
+        span{
+            font-size: 20px;
+            font-weight: 600;
+        }
+        address{
+            margin-left: 30px;
+        }
+    }
+}

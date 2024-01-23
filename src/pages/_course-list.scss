@@ -1,0 +1,124 @@
+//course list hero style
+.course-list-hero-area{
+    background-color: $dark;
+  .hero-text{
+    color: $light;
+    padding: 50px 0px;
+    p{
+        margin-top: 10px;
+    }
+
+ }
+}
+
+
+//course-list style
+.course-list-area{
+
+    .course-item{
+        padding: 20px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+       
+       
+        .course-item-img{
+            
+            object-fit: contain;
+            img{
+                border-radius: 10px;
+              
+            }
+       
+        }
+
+        .course-item-text{
+           display: flex;
+           flex-direction: column;
+           justify-content: space-between;
+          
+             p{
+                
+                font-weight: 500;
+                font-size: 1.25rem;
+             }
+            
+            .included-text{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                margin-top: 10px;
+                
+             .left-text{
+                
+                margin-right: 20px;
+              li{
+                margin-bottom: 8px;
+                    i{
+                        color: $seconday;
+                        
+                        margin-right: 8px;
+                    }
+                    span{
+                        font-size: 0.875rem;
+                        font-weight: 600;
+                    }
+                 }
+             }
+             .right-text{
+               
+                li{
+                    margin-bottom: 8px;
+                      i{
+                          color: $seconday;
+                          
+                          margin-right: 8px;
+                      }
+                      span{
+                          font-size: 0.875rem;
+                          font-weight: 600;
+                      }
+                   }
+               }
+            }
+        }
+
+        .course-item-price{
+          
+            p{
+                font-size: 1.25rem;
+                font-weight: 600;
+           }
+           ul{
+            display: flex;
+            flex-direction: row;
+            justify-content:space-between;
+            align-items: center;
+            li{
+                display: inline-block;
+                &:nth-child(1) {
+                    font-size: 1.25rem;
+                        font-weight: bold;
+                  }
+                  &:nth-child(2) {
+                    font-size: 1rem;
+                    text-decoration: line-through;
+                  }
+                  &:nth-child(3) {
+                    font-size: 1rem;
+                    color: $light;
+                    background-color: $seconday;
+                    border-radius: 4px;
+                    padding: 4px 8px;
+                  }
+            }
+        }
+        }
+        .course-item-button{
+             
+            margin-top: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+    }
+}
+

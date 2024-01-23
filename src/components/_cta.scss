@@ -1,0 +1,16 @@
+//cta area style
+.cta-area{
+    background-color: $dark;
+    padding: 100px 0px;
+    .cta-text{
+        color: $light;
+        text-align: center;
+        p{
+            margin: 10px 0px;
+        }
+    }
+    .cta{
+        text-align: center;
+        margin-top: 20px;
+    }
+}

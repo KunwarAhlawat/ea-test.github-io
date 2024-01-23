@@ -1,0 +1,128 @@
+
+//style for desktop menu
+.nav-section{
+
+  background-color: $text-light;
+  box-shadow: $shadow-1;
+  padding: 10px 0px;
+
+    .logo{
+         height: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+        align-items: center;
+       img{
+         height: 60px;
+         margin-right: 8px;
+        }
+        span{
+          font-size: 40px;
+          font-weight: $bold;
+          line-height: 100%;
+          -webkit-text-stroke: 2px $primary-color;
+          letter-spacing: 1.5px;
+      
+        }
+     // Media query for tablets (portrait and landscape)
+     @media only screen and (min-width: 600px) and (max-width: 1200px) {
+     span{
+    font-size: 22px;
+
+     }
+     }
+       
+}
+  .nav-menu{
+     height: 100%;
+     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    li{
+        display: inline-block;
+        margin-right: 8px;
+        button{
+            margin-left: 1rem;
+        }
+
+       
+    }
+  }
+}
+
+
+
+//mobile menu start
+.mobile-menu-area{
+  box-shadow: $shadow-1;
+  padding: 4px 0px;
+  .mobile-menu{
+    display: flex;
+    display: row;
+    justify-content: space-between;
+    align-items: center;
+    .mobile-logo{
+      display: flex;
+      flex-direction: row;
+      justify-content: start;
+      align-items: center;
+      img{
+        height: 30px;
+        margin-right: 8px;
+      }
+      span{
+        font-size: 20px;
+        font-weight: $bold;
+        color: $primary-color;
+        -webkit-text-stroke: 2px $primary-color;
+        letter-spacing: 1.5px;
+    
+      }
+
+    }
+    i{
+      font-size: 28px;
+      color: $primary-color;
+      &:hover{
+        color: $secondary-color;
+      }
+    }
+    .offcanvas-custom{
+      .offcanvas-custom-header{
+        padding: 20px;
+        span{
+          font-size: 20px;
+          font-weight: $bold;
+          color: $primary-color;
+          -webkit-text-stroke: 2px $primary-color;
+          letter-spacing: 1.5px;
+        }
+        i{
+          font-size: 30px;
+        
+          color: $primary-color;
+          &:hover{
+            color: $secondary-color;
+          }
+        }
+      }
+    .mobile-menu-items{
+      padding: 0;
+      ul{
+       padding: 0;
+        li{
+          border-top: 1px solid $text-dark;
+          padding: 10px 40px; 
+          button{
+            display: block;
+            width: 100%;
+          }
+        }
+      }
+    }}
+
+  }
+
+}
+

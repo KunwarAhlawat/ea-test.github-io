@@ -1,0 +1,55 @@
+.course-view-hero-area{
+background-color: green;
+}
+
+.course-view-content-area{}
+
+.course-view-course-include-area{
+
+}
+
+.course-view-course-include-area{
+    h4{
+        text-align: start;
+    }
+
+    .course-include-item{
+        padding: 20px;
+    }
+}
+
+.course-view-top-faculties-area{
+    .faculty-item{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+        background-color: green;
+      
+        .faculty-text{
+
+        }
+        .faculty-img{
+            height: 200px;
+            width: 200px;
+        }
+    }
+}
+
+.course-view-faq-area{
+
+}
+
+.course-view-sidebar-area{
+
+    .sidebar-cta-card{
+  padding: 20px;
+  ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+    }
+}

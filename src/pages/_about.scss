@@ -1,0 +1,25 @@
+.about-why-us-area{
+    .why-us-item{
+        display: flex;
+        flex-direction: row;
+        justify-content:space-between;
+        align-items: start;
+        padding: 20px;
+        background-color: green;
+        color: $light;
+        margin-top: 20px;
+     
+        .why-us-img{
+            background-color: $light;
+            border-radius: 5px;
+           
+            padding: 10px 20px;
+            margin-right: 20px;
+            i{
+                font-size: 32px;
+           
+                color: $dark;
+            }
+        }
+    }
+}

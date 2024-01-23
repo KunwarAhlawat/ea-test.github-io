@@ -1,0 +1,43 @@
+.nav-section .logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+}
+.nav-section .logo img {
+  height: 3rem;
+  width: 3rem;
+  margin-right: 0.5rem;
+}
+.nav-section .logo h2 {
+  font-size: 3rem;
+  font-weight: 500;
+  line-height: 100%;
+}
+.nav-section .nav-menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-section .nav-menu li {
+  display: inline;
+  font-size: 1rem;
+  font-weight: 500;
+}
+.nav-section .nav-menu li button {
+  margin-left: 1rem;
+}
+
+.mobile-menu-area .mobile-menu {
+  display: flex;
+  display: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.mobile-menu-area .mobile-menu i {
+  font-size: 24px;
+}
+.mobile-menu-area .mobile-menu .mobile-menu-itmes ul li {
+  display: block;
+}/*# sourceMappingURL=layout.css.map */
