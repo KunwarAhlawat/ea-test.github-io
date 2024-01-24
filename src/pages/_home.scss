@@ -23,7 +23,7 @@ button{
 .home-stat-area{
     
     .home-stat-item{
-        box-shadow: $shadow-2;
+        box-shadow: $shadow-1;
         text-align: center;
         padding: 20px;
         border-radius: 5px;
@@ -46,7 +46,7 @@ button{
     
     .course-item{
        padding: 20px;
-        box-shadow:$shadow-2;
+        box-shadow:$shadow-1;
         border-radius: 5px;
        .item-header{
         h4{
@@ -95,7 +95,7 @@ button{
     text-align: center;
     padding: 20px;
     border-radius: 5px;
-    box-shadow: $shadow-2;
+    box-shadow: $shadow-1;
   h3{
     color: $accent-color;
     font-weight: $bold;
