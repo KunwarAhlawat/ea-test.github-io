@@ -28,6 +28,8 @@
  ---------------------------------------------- */
 body {
   font-family: "Pathway Extreme", sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 h1,
@@ -199,8 +201,8 @@ li {
 
 .primary-button {
   display: inline-block;
-  padding: 15px 40px;
-  font-size: 1.5rem;
+  padding: 10px 20px;
+  font-size: 1rem;
   font-weight: 700;
   color: #fff;
   background-color: #2f207d;
@@ -233,7 +235,7 @@ li {
 
 .cta-button {
   display: inline-block;
-  padding: 10px 40px;
+  padding: 10px 20px;
   font-size: 1rem;
   font-weight: 700;
   color: #fff;
@@ -850,6 +852,67 @@ li {
 .contact-info-area .contact-info-item address {
   margin-left: 30px;
   font-size: 1rem;
+}
+
+.facultyView-hero-area {
+  background-color: #2f207d;
+  color: #fff;
+}
+
+.facultyView-info-area {
+  background-color: #fff;
+}
+.facultyView-info-area .faculty-info-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: start;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+  padding: 20px;
+}
+.facultyView-info-area .faculty-info-content .faculty-info-img {
+  width: 150px;
+  height: 150px;
+  border: 2px solid rgba(0, 0, 0, 0.541);
+  border-radius: 10px;
+  margin-right: 30px;
+}
+.facultyView-info-area .faculty-info-content .faculty-info-img img {
+  width: 100%;
+  height: 100%;
+}
+.facultyView-info-area .faculty-info-content .faculty-info-text-area span {
+  font-size: 0.875rem;
+  color: #FFA500;
+  font-weight: 700;
+}
+.facultyView-info-area .faculty-info-content .faculty-info-text-area p {
+  font-weight: 700;
+  color: #333;
+  margin-top: 10px;
+}
+.facultyView-info-area .faculty-info-content .faculty-info-text-area li {
+  display: block;
+  font-weight: 1rem;
+  margin-left: 10px;
+}
+.facultyView-info-area .faculty-info-content .faculty-info-text-area li i {
+  color: #FFA500;
+  margin-right: 8px;
+}
+.facultyView-info-area .faculty-des {
+  margin-top: 30px;
+}
+.facultyView-info-area .faculty-des p {
+  margin-bottom: 20px;
+}
+.facultyView-info-area .faculty-des li {
+  display: block;
+  font-size: 1rem;
+}
+.facultyView-info-area .faculty-des li i {
+  margin-right: 8px;
+  color: #4CAF50;
 }
 
 /*# sourceMappingURL=style.css.map */
