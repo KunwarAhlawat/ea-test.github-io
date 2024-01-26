@@ -1,0 +1,108 @@
+//about area style
+.home-about-area{
+
+  .home-about-text{
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+   height: 100%;
+p{
+    margin: 10px 0px 20px 0px;
+}}
+img{
+ 
+}
+button{
+    align-self: start;
+}
+
+
+}
+
+//stat area style
+.home-stat-area{
+    
+    .home-stat-item{
+        box-shadow: $shadow-1;
+        text-align: center;
+        padding: 20px;
+        border-radius: 5px;
+      
+        h6{
+            font-weight: $bold;
+        }
+        p{
+
+        }
+        i{
+           font-size: 40px;
+           color: $accent-color;
+        }
+    }
+}
+
+//course area style
+.home-course-area{
+    
+    .course-item{
+       padding: 20px;
+        box-shadow:$shadow-1;
+        border-radius: 5px;
+       .item-header{
+        h4{
+            font-weight: $bold;
+        }
+       
+        }
+        .item-body{
+          
+            
+            .item-box{
+                padding: 10px 20px;
+                background-color: $light;
+                margin: 10px 0px;
+                i{
+                    color: $accent-color;
+                    margin-right: 8px;
+                }
+                span{
+                font-size: 1rem;
+                font-weight: $med;
+                }
+              
+                
+            }
+        }
+        .item-footer{
+           margin-top: 20px;
+            display: flex;
+           flex-direction: row;
+           justify-content: space-around;
+           align-items: center;
+        }
+      
+    }
+
+    .right-part{
+        height: 100%;
+        background-color: green;
+    }
+}
+
+//number stat style
+.home-number-area{
+ .number-item{
+    text-align: center;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: $shadow-1;
+  h3{
+    color: $accent-color;
+    font-weight: $bold;
+  }
+  p{
+    font-weight: $med;
+  }
+ }
+}
+

@@ -1,0 +1,74 @@
+.primary-button {
+    display: inline-block;
+    padding: 15px 40px;
+    font-size: 1.5rem;
+    font-weight: $bold;
+    color: $text-light;
+    background-color: $primary-color;
+    border: 0;
+    border-radius: 5px; 
+    cursor: pointer;
+    text-decoration: none;
+
+    &:hover {
+        background-color: $secondary-color;
+        color: $text-light;
+    }
+}
+
+.secondary-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: $bold;
+    color: $text-light;
+    background-color: $secondary-color;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+
+    &:hover {
+        background-color: $primary-color;
+        color: $text-light;
+    }
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 40px;
+    font-size: 1rem;
+    font-weight: $bold;
+    color: $text-light;
+    background-color: $primary-color;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+
+    &:hover {
+        background-color: $primary-color;
+        color: $text-light;
+    }
+}
+
+
+.outline-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: $bold;
+    color: $text-dark;
+    border: 1px solid ;
+    border-color: rgba(0, 0, 0, 0.226);
+    
+  
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+
+    &:hover {
+     border: 1px solid $primary-color;
+        color: $text-dark;
+    }
+}
