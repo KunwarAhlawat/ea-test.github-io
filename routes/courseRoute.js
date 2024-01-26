@@ -1,8 +1,9 @@
 const express = require("express")
 const router = express.Router()
-const courseData = require("../database/data")
+ 
 
 router.get("/courses" , (req, res)=>{
+    const courseData = res.locals.commonData.Data;
 
 
     res.render('courseList' , {courseData})

@@ -1,5 +1,5 @@
-<%- include('partials/header.ejs')%>
 
+<<<<<<< HEAD
     <!-- banner area start -->
     <section class="home-banner">
         <div class="container-fluid">
@@ -10,6 +10,188 @@
                             <% courseData.banner.forEach(image=> { %>
                                 <div class="carousel-item  <%= image.class %>">
                                     <img src="<%= image.imgSrc %>" class="d-block w-100" alt="...">
+=======
+      <%- include('partials/header') %>
+ 
+<!-- banner area start -->
+<section class="home-banner">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col">
+                <div id="home-slider" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <% courseData.banner.forEach(image => { %>
+                            <div class="carousel-item  <%= image.class %>">
+                                <img src="<%= image.imgSrc %>" class="d-block w-100" alt="...">
+                            </div>
+                        <% }) %>
+                    
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#home-slider"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#home-slider"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- banner area end -->
+
+<!-- about-area-start -->
+<section class="home-about-area section-padding">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 mt-3    mt-md-0">
+                <div class="home-about-text">
+                    <h1 class="fw-bold">Bharat’s Biggest  & Most Trusted  Educational Platform</h1>
+                    <p  class="fw text-muted Lead">Unlock your potential by signing up with Physics Wallah- <br>  The most affordable learning
+                        solution</p>
+                    <button class="primary-button my-4 " data-bs-toggle="modal"
+                    data-bs-target="#leadModal">Get Started</button>
+                </div>
+            </div>
+            <div class="col-md-6 w-50  mt-3 mt-md-0">
+                <img src="/assets/img/2.home/2.about-section/about-home.webp" class="img-fluid" alt="">
+            </div>
+        </div>
+    </div>
+</section>
+<!-- about-area-start -->
+
+<!-- stat section start -->
+<section class="home-stat-area">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3 mt-3 mt-md-0">
+                <div class="home-stat-item">
+                    <i class="bi bi-balloon"></i>
+                    <h6>Daily Live</h6>
+                    <p>Interactive classes</p>
+                </div>
+            </div>
+            <div class="col-md-3 mt-3 mt-md-0">
+                <div class="home-stat-item">
+                    <i class="bi bi-balloon"></i>
+                    <h6>Daily Live</h6>
+                    <p>Interactive classes</p>
+                </div>
+            </div>
+            <div class="col-md-3 mt-3 mt-md-0">
+                <div class="home-stat-item">
+                    <i class="bi bi-balloon"></i>
+                    <h6>Daily Live</h6>
+                    <p>Interactive classes</p>
+                </div>
+            </div>
+            <div class="col-md-3 mt-3 mt-md-0">
+                <div class="home-stat-item">
+                    <i class="bi bi-balloon"></i>
+                    <h6>Daily Live</h6>
+                    <p>Interactive classes</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- stat section end -->
+
+<!-- course area start -->
+<section class="home-course-area  my-5">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="section-title">
+                    <h2>Online Courses</h2>
+                    <p>PW is preparing students for 17 exam categories. Scroll down to find the one you are
+                        preparing for</p>
+                </div>
+            </div>
+        </div>
+        
+<section class="course-list-area my-5">
+    <div class="container">
+
+      <div class="row ">
+
+        <% courseData.courseList.forEach(course=> { %>
+          <div class="col-md-4">
+            <div class="course-item">
+              <div class="course-item-img">
+                <img src="<%= course.courseListPage.imgSrc2 %>" alt="" class="img-fluid">
+              </div>
+              <div class="course-item-text">
+                <h5>
+                  <%= course.courseListPage.title2 %>
+                </h5>
+                <p>
+                  <%= course.courseListPage.details2 %>
+                </p>
+                <div class="included-text">
+                  <ul class="left-text">
+                    <% course.courseListPage.includedText.left.forEach(item=> { %>
+
+                      <li><i class="<%= item.icon %>"></i><span>
+                          <%= item.text %>
+                        </span> </li>
+
+                      <% }) %>
+                  </ul>
+                  <ul class="right-text">
+                    <% course.courseListPage.includedText.right.forEach(item=> { %>
+
+                      <li><i class="<%= item.icon %>"></i><span>
+                          <%= item.text %>
+                        </span></li>
+
+                      <% }) %>
+                  </ul>
+
+
+                </div>
+              </div>
+              <div class="course-item-price">
+                <p>Course Price</p>
+                <ul>
+                  <li><%= course.courseListPage.price.regularPrice %></li>
+                  <li><%= course.courseListPage.price.discountedPrice %> </li>
+                  <li><%= course.courseListPage.price.discountPercentage %></li>
+                </ul>
+              </div>
+              <hr>
+              <div class="course-item-button">
+             <a href="/courseview/<%= course.id %>">  <button class="outline-button">Explore</button></a> 
+              <a href="<%= course.courseListPage.links.buyNow %>">  <button class="cta-button">Buy Now</button></a>
+
+              </div>
+
+            </div>
+          </div>
+          <% }) %>
+
+           
+
+
+      </div>
+
+    </div>
+  </section>
+        <!-- <div class="row mt-5">
+            <% courseData.courseList.forEach(course => { %>
+                <div class="col-md-4 mt-3 mt-md-0">
+                    <div class="course-item">
+                        <div class="row">
+                            <div class="col-6">
+                                <div class="item-header">
+                                    <h4><%= course.homePageCourse.title%></h4>
+    
+>>>>>>> 7710b10cd4285e4b17b98e95a2288feab999cf35
                                 </div>
                                 <% }) %>
 

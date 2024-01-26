@@ -4,7 +4,7 @@ const courseData = require("../database/data")
 
 router.get("/courseview/:id" , (req , res )=>{
     const params = req.params.id
-   
+    const courseData = res.locals.commonData.Data;
 
     const courseViewData =  courseData.courseView.find(course => course.courseId === params)
  

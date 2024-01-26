@@ -1,8 +1,11 @@
 const express = require("express")
 const router = express.Router()
-const courseData = require("../database/data")
-
+  
+    
 router.get("/" , (req, res)=>{
+    console.log(res.locals)
+    
+    const courseData = res.locals.commonData.Data;
     res.render('home' , {courseData})
 })
 
