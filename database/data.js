@@ -434,7 +434,7 @@ const Data = {
 };
 
 // menu items
-const menuItems = [
+const menuItems = [  
   { id: "iitjee", text: "IIT", link: "coure-view.html" },
   { id: "neet", text: "NEET", link: "coure-view.html" },
   { id: "uppolice", text: "Competition", link: "coure-view.html" },
