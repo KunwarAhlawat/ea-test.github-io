@@ -26,8 +26,17 @@
         font-weight: 700;
     }
     p{
-        font-size: 1.25rem;
-        font-weight: 500;
+       
     }
 }
 
+.section-subtitle{
+    color:rgba(0, 0, 0, 0.685);
+    text-overflow: ellipsis;
+    font-weight: $med;
+    letter-spacing: 1px;
+    max-width: 70%;
+    text-align: center;
+    margin: auto;
+
+}

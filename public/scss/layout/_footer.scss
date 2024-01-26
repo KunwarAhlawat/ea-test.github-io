@@ -1,7 +1,9 @@
 //footer area style 
 .footer-area{
     background-color: $bg-color-1;
+  
     .footer-logo{
+
         span{
             font-size: 30px;
             font-weight: $bold;
@@ -10,28 +12,39 @@
             letter-spacing: 1.5px;
         }
         address{
+            font-size: $smaller-font;
             margin-top: 8px;
             color: $text-dark;
             font-weight: $bold;
+            max-width: 80%;
             
             
         }
         
     }
-    h5{
+    h6{
         font-weight:$bold;
     }
 
     ul{
         li{
             display: block;
-            margin-top: 8px;
-            margin-left: 4px;
+            margin-top: 4px;
+            margin-left: 8px;
+            a{
+                font-size: $smaller-font;
+                font-weight: $bold;
+            }
         }
     }
 
+    hr{
+        margin-top: 30px;
+    }
     p{
+       
         text-align: center;
         font-weight: $bold;
+        font-size: $smaller-font;
     }
 }

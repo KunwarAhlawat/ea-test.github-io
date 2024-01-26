@@ -2,15 +2,17 @@
 .cta-area{
     background-color: $dark;
     padding: 100px 0px;
+    text-align: center;
     .cta-text{
         color: $light;
-        text-align: center;
         p{
-            margin: 10px 0px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            color: $light;
         }
     }
     .cta{
-        text-align: center;
         margin-top: 20px;
+       
     }
 }
