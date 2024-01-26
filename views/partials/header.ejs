@@ -85,3 +85,70 @@
 
     </section>
     <!--mobile menu area end -->
+
+
+     
+    <!-- lead capture form start -->
+    <div class="modal lead-modal fade" id="leadModal" tabindex="-1" aria-labelledby="leadModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog ">
+        <div class="modal-content counseling-modal-content ">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Request a Callback</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col m-0 p-0">
+                                <!-- forms -->
+
+                                <div class="registerForm">
+                                    <div class="container">
+                                     <div class="logo">
+                                      <img   src="/assets/img/1.logo/ea-logo.png" alt="">
+                                     </div>
+                                    <form   action="/admin" method="POST" id="addRegisterForm">
+                                      
+                                      <div>
+                                        <label for="firstName">Name</label>  <br>
+                                        <input id="firstName" name="firstName" placeholder="Enter First Name" type="text" required>
+                                      </div>
+           
+                                      <div>
+                                        <label for="email">Email</label> <br>
+                                        <input id="email" name="email" placeholder="Enter Email" type="text" required>
+                                      </div>
+          
+                                      <div >
+                                        <label for="mobileNum">Mobile No</label>  <br>
+                                        <input id="mobileNum" placeholder="Enter Phone" name="mobileNum" type="number" required>
+                                      </div>
+          
+                                      <div >
+                                        <label for="Courses">Courses</label>  <br>
+                                        <input id="Courses" placeholder="Enter Phone" name="Courses" type="text" required>
+                                      </div>
+          
+                                      <div >
+                                        <label for="Address">Address</label>  <br>
+                                        <textarea style="width: 100%;" id="Address" placeholder="Enter Address" name="Address" required></textarea>
+                                      </div>
+                                      <div>
+                                        <input type="submit" value="Submit">
+                                      </div>
+                                     
+                                    </form> 
+                                    </div>
+                                  </div>
+          
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Submit</button>
+            </div> -->
+        </div>
+    </div>
+</div>
+    <!-- lead capture form end -->

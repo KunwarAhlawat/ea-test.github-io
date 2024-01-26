@@ -40,7 +40,8 @@
                     <h1 class="fw-bold">Bharat’s Biggest  & Most Trusted  Educational Platform</h1>
                     <p  class="fw text-muted Lead">Unlock your potential by signing up with Physics Wallah- <br>  The most affordable learning
                         solution</p>
-                    <button class="primary-button my-4 ">Get Started</button>
+                    <button class="primary-button my-4 " data-bs-toggle="modal"
+                    data-bs-target="#leadModal">Get Started</button>
                 </div>
             </div>
             <div class="col-md-6 w-50  mt-3 mt-md-0">
@@ -89,18 +90,86 @@
 <!-- stat section end -->
 
 <!-- course area start -->
-<section class="home-course-area section-padding">
+<section class="home-course-area  my-5">
     <div class="container">
         <div class="row">
             <div class="col">
                 <div class="section-title">
-                    <h2>Our Courses</h2>
+                    <h2>Online Courses</h2>
                     <p>PW is preparing students for 17 exam categories. Scroll down to find the one you are
                         preparing for</p>
                 </div>
             </div>
         </div>
-        <div class="row mt-5">
+        
+<section class="course-list-area my-5">
+    <div class="container">
+
+      <div class="row ">
+
+        <% courseData.courseList.forEach(course=> { %>
+          <div class="col-md-4">
+            <div class="course-item">
+              <div class="course-item-img">
+                <img src="<%= course.courseListPage.imgSrc2 %>" alt="" class="img-fluid">
+              </div>
+              <div class="course-item-text">
+                <h5>
+                  <%= course.courseListPage.title2 %>
+                </h5>
+                <p>
+                  <%= course.courseListPage.details2 %>
+                </p>
+                <div class="included-text">
+                  <ul class="left-text">
+                    <% course.courseListPage.includedText.left.forEach(item=> { %>
+
+                      <li><i class="<%= item.icon %>"></i><span>
+                          <%= item.text %>
+                        </span> </li>
+
+                      <% }) %>
+                  </ul>
+                  <ul class="right-text">
+                    <% course.courseListPage.includedText.right.forEach(item=> { %>
+
+                      <li><i class="<%= item.icon %>"></i><span>
+                          <%= item.text %>
+                        </span></li>
+
+                      <% }) %>
+                  </ul>
+
+
+                </div>
+              </div>
+              <div class="course-item-price">
+                <p>Course Price</p>
+                <ul>
+                  <li><%= course.courseListPage.price.regularPrice %></li>
+                  <li><%= course.courseListPage.price.discountedPrice %> </li>
+                  <li><%= course.courseListPage.price.discountPercentage %></li>
+                </ul>
+              </div>
+              <hr>
+              <div class="course-item-button">
+             <a href="/courseview/<%= course.id %>">  <button class="outline-button">Explore</button></a> 
+              <a href="<%= course.courseListPage.links.buyNow %>">  <button class="cta-button">Buy Now</button></a>
+
+              </div>
+
+            </div>
+          </div>
+          <% }) %>
+
+           
+
+
+      </div>
+
+    </div>
+  </section>
+        <!-- <div class="row mt-5">
             <% courseData.courseList.forEach(course => { %>
                 <div class="col-md-4 mt-3 mt-md-0">
                     <div class="course-item">
@@ -147,14 +216,101 @@
             <div class="col">
                 <a href="/courses"><button class="primary-button">View all Courses</button></a>
             </div>
-        </div>
+        </div> -->
 
     </div>
 </section>
 <!-- course area end -->
 
+<!-- course area start -->
+<section class="home-course-area  my-5">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="section-title">
+                    <h2>Offline Courses</h2>
+                    <p>PW is preparing students for 17 exam categories. Scroll down to find the one you are
+                        preparing for</p>
+                </div>
+            </div>
+        </div>
+        
+<section class="course-list-area my-5">
+    <div class="container">
+
+      <div class="row ">
+
+        <% courseData.courseList.forEach(course=> { %>
+          <div class="col-md-4">
+            <div class="course-item">
+              <div class="course-item-img">
+                <img src="<%= course.courseListPage.imgSrc2 %>" alt="" class="img-fluid">
+              </div>
+              <div class="course-item-text">
+                <h5>
+                  <%= course.courseListPage.title2 %>
+                </h5>
+                <p>
+                  <%= course.courseListPage.details2 %>
+                </p>
+                <div class="included-text">
+                  <ul class="left-text">
+                    <% course.courseListPage.includedText.left.forEach(item=> { %>
+
+                      <li><i class="<%= item.icon %>"></i><span>
+                          <%= item.text %>
+                        </span> </li>
+
+                      <% }) %>
+                  </ul>
+                  <ul class="right-text">
+                    <% course.courseListPage.includedText.right.forEach(item=> { %>
+
+                      <li><i class="<%= item.icon %>"></i><span>
+                          <%= item.text %>
+                        </span></li>
+
+                      <% }) %>
+                  </ul>
+
+
+                </div>
+              </div>
+              <div class="course-item-price">
+                <p>Course Price</p>
+                <ul>
+                  <li><%= course.courseListPage.price.regularPrice %></li>
+                  <li><%= course.courseListPage.price.discountedPrice %> </li>
+                  <li><%= course.courseListPage.price.discountPercentage %></li>
+                </ul>
+              </div>
+              <hr>
+              <div class="course-item-button">
+             <a href="/courseview/<%= course.id %>">  <button class="outline-button">Explore</button></a> 
+              <a href="<%= course.courseListPage.links.buyNow %>">  <button class="cta-button">Buy Now</button></a>
+
+              </div>
+
+            </div>
+          </div>
+          <% }) %>
+
+           
+
+
+      </div>
+
+    </div>
+  </section>
+    
+    </div>
+</section>
+<!-- course area end -->
+
+
+
 <!-- number stat area start -->
-<section class="home-number-area section-padding">
+<section class="home-number-area mt-5 my-5">
     <div class="container">
         <div class="row">
             <div class="col">
@@ -197,7 +353,7 @@
 <!-- number stat area end -->
 
 <!-- cta area start -->
-<section class="cta-area">
+<section class="cta-area ">
     <div class="container">
         <div class="row text-center">
             <div class="col">
@@ -206,7 +362,8 @@
                     <p>Creating new benchmarks in learning experiences</p>
                 </div>
                 <div class="cta">
-                    <button class="cta-button" data-bs-toggle="modal" data-bs-target="#exampleModal">Get Started</button>
+                    <button class="cta-button" data-bs-toggle="modal"
+                    data-bs-target="#leadModal">Get Started</button>
                 </div>
             </div>
         </div>

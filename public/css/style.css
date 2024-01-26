@@ -291,6 +291,61 @@ li {
   object-fit: fill;
 }
 
+.registerForm {
+  background-color: var(--primary-color);
+  margin: auto;
+  position: relative;
+  padding: 0px 10px;
+  width: 400px;
+  border: 1px solid rgba(0, 0, 0, 0.199);
+}
+.registerForm .logo {
+  border-radius: 50%;
+  height: 80px;
+  width: 80px;
+  padding: 0;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  overflow: hidden;
+  border: 3px solid white;
+}
+.registerForm .logo img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+.registerForm form input {
+  width: 100%;
+  height: 62px;
+  font-size: 1.6rem;
+  margin: 10px 0;
+}
+.registerForm form input::placeholder {
+  font-size: 1.2rem;
+  color: rgba(0, 0, 0, 0.5254901961);
+  padding-left: 5px;
+}
+.registerForm form input:focus {
+  outline: none;
+}
+.registerForm form label {
+  font-size: 1.6rem;
+}
+.registerForm form button {
+  background-color: var(--accent-color) !important;
+  font-size: 1.8rem;
+  color: rgb(255, 255, 255);
+  border-radius: 0;
+  font-weight: 600;
+  padding: 5px 40px;
+  display: flex;
+  justify-content: flex-end;
+  letter-spacing: 1px;
+  margin-top: 30px;
+}
+
 .nav-section {
   background-color: #fff;
   box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
