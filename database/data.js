@@ -456,23 +456,40 @@ const Data = {
 
 // menu items
 const menuItems = [  
-  { id: "iitjee", text: "IIT", link: "coure-view.html" },
-  { id: "neet", text: "NEET", link: "coure-view.html" },
-  { id: "uppolice", text: "Competition", link: "coure-view.html" },
-  {
+  { id: "iitjee", text: "IIT", link: "coure-view.html",
+  submenu:[  { id: "online-iit", text: "Online", link: "courseView.html" },
+{ id: "offline-iit", text: "Offline", link: "courseView.html" }] 
+},
+  
+{ id: "neet", text: "NEET", link: "coure-view.html" ,
+submenu:[  { id: "online-iit", text: "Online", link: "courseView.html" },
+{ id: "offline-iit", text: "Offline", link: "courseView.html" }] 
+},
+
+
+{ id: "Competition", text: "Competition", link: "coure-view.html", 
+  submenu:[  
+    { id: "up-police", text: "Up Policee", link: "courseView.html",
+    submenu2:[  
+      { id: "up-police-online", text: "Online", link: "courseView.html" },
+      { id: "up-police-offline", text: "Offline", link: "courseView.html" }] 
+  },
+
+]
+},
+
+{
     id: "school",
     text: "School",
     link: "coure-view.html",
     submenu: [
-      { id: "contact1", text: "Contact1", link: "contact.html" },
-      { id: "contact2", text: "Contact2", link: "contact.html" },
+      { id: "class-9th", text: "class 9th", link: "courseView.html",
+      submenu2:[  
+        { id: "class-9th-online", text: "Online", link: "courseView.html"},
+        { id: "class-9th-offline", text: "Offline", link: "courseView.html" },]
+  
+      }
     ],
-  },
-
-  {
-    id: "contact",
-    text: "Contact",
-    link: "contact.html",
   },
 ];
 
