@@ -431,6 +431,27 @@ const Data = {
       },
     },
   ],
+  faculty :[
+    {
+      name: "Dr. Manoj Kumar",
+      position: "Professor of Mathematics",
+      experience: "Experience",
+      education: [
+          "M.S. in Applied Mathematics, University ABC",
+          "B.S. in Mathematics, College DEF"
+      ],
+      imageSrc: "/assets/img/6.faculties/1.png",
+      previousPositions: [
+        "Ph.D. in Mathematics, University XYZ",
+        "Associate Professor, Department of Mathematics, University XYZ (2010-2018)",
+        "Assistant Professor, University ABC",
+        "Research interests: Number Theory, Algebraic Geometry",
+        "Office Hours: Monday and Wednesday, 2:00 PM - 4:00 PM"
+    ],
+    bio: "Dr. Emily Johnson is a distinguished mathematician with a passion for advancing the field of pure mathematics. Her research, focusing on Number Theory and Algebraic Geometry, has garnered international recognition. Dr. Johnson brings a wealth of teaching experience, having served as an Associate Professor at University XYZ and an Assistant Professor at University ABC. Her commitment to academic excellence and mentorship has positively impacted numerous students throughout her career. In addition to her teaching and research, Dr. Johnson actively contributes to academic conferences and has published several influential papers in renowned mathematics journals"
+
+  },
+  ]
 };
 
 // menu items

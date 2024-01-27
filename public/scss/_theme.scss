@@ -1,7 +1,7 @@
 
 //helper classes
 .section-padding{
-    padding: 100px 0px;
+    padding: 50px 0px;
 }
 
 
@@ -24,6 +24,8 @@
     text-align: center;
     h2{
         font-weight: 700;
+        margin:5px 0;
+        stroke : 2px black;
     }
     p{
        
@@ -38,5 +40,26 @@
     max-width: 70%;
     text-align: center;
     margin: auto;
+    
+
+}
+.section-subtitle1{
+    color:rgba(0, 0, 0, 0.685);
+    text-overflow: ellipsis;
+    font-weight: $med;
+    letter-spacing: 1px;
+    max-width: 70%;
+    text-align: left;
+  
+
+}
+.section-subtitle2{
+    color:rgba(0, 0, 0, 0.685);
+    text-overflow: ellipsis;
+    font-weight: $med;
+    letter-spacing: 1px;
+    max-width: 100%;
+    text-align: left;
+  
 
 }
