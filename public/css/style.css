@@ -1286,16 +1286,24 @@ ul {
 }
 .main .course-view-course-include-area h4 {
   text-align: start;
+  font-weight: 700;
 }
 .main .course-view-course-include-area .course-include-item {
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border: 1px solid rgba(0, 0, 0, 0.062);
   margin-top: 10px;
   padding: 20px;
   text-align: center;
 }
 .main .course-view-course-include-area .course-include-item span {
-  font-size: 1.5rem;
+  font-size: 1rem;
   font-weight: 700;
+  color: #47c341;
+}
+.main .course-view-course-include-area .course-include-item h6 {
+  margin-top: 10px;
+  font-weight: 700;
+  letter-spacing: 1px;
 }
 .main .course-view-top-faculties-area {
   padding: 30px 0px;
