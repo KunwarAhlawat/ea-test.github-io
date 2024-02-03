@@ -1469,6 +1469,669 @@ const Data = {
         },
       },
     },
+    {
+      courseId: "ssc-cgl-offline",
+      title: "SSC-CGL 2024 Mastery Program (Offline)",
+      discountText: "Special Discounted Price",
+      price: {
+        discountedPrice: "RS 2449",
+        regularPrice: "RS 2999",
+        discountPercentage: "(17% OFF)",
+      },
+      content: [
+        "Exclusive Offer - Limited Spots Available",
+        "Join our SSC-CGL 2024 Mastery Program at Education Academy and set yourself up for success. Our course is made for folks like you, providing the knowledge and skills needed to do well in the SSC Combined Graduate Level (CGL) exam.",
+        "What's Special:",
+        "Learn Everything: We cover the SSC-CGL 2024 topics in-depth like Math, English, Reasoning, and General Knowledge.",
+        "Awesome Teachers: Our experienced teachers know their stuff and will help you understand each subject better.",
+        "Talk and Learn: Get involved in chats, discussions, and classes that clear up any confusion and boost your confidence.",
+        "Practice Tests: Regular practice tests make sure you're ready for the real SSC-CGL exam. They help with time management and show how much you've improved.",
+        "Small Classes: Classes are small, so you get personal attention and help when you need it.",
+        "Study Materials: You'll get easy-to-understand study materials created by our experts, covering everything you need for the exam.",
+        "Understand the Basics: We focus on making sure you get the basics right, so you can handle any kind of question."
+      ],
+      batchDetails: {
+        title: "Batch Details",
+        items: [
+          { count: "Morning Batch", description: "9:00AM to 12:00" },
+          { count: "Afternoon Batch", description: "12:00 to 3:00PM" },
+          { count: "Evening Batch", description: "4:00PM to 7:00PM" },
+        ],
+      },
+      faculty: {
+        title: "Our Faculties",
+        items: [
+          {
+            name: "Ram Singh",
+            qualification: "MSC in Biochemistry",
+            experience: "13 Years",
+            imageSrc: "/assets/img/5.course-view/1.faculty.png",
+          },
+        ],
+      },
+      faq: {
+        title: "FAQ",
+        items: [
+          {
+            accordion: {
+              head: {
+                id: "panelsStayOpen-headingOne",
+                button: {
+                  class: "accordion-button",
+                  dataBsTarget: "#panelsStayOpen-collapseOne",
+                  ariaExpanded: "false",
+                  ariaControls: "panelsStayOpen-collapseOne",
+                },
+              },
+              body: {
+                id: "panelsStayOpen-collapseOne",
+                class: "accordion-collapse collapse show",
+                ariaLabelledby: "panelsStayOpen-headingOne",
+              },
+            },
+            question: "Q.Who teaches in the SSC-CGL 2024 course?",
+            answer:
+              "Our experienced teachers are experts in their subjects and are here to make learning easy for you.",
+          },
+
+          {
+            accordion: {
+              head: {
+                id: "panelsStayOpen-headingTwo",
+                button: {
+                  class: "accordion-button",
+                  dataBsTarget: "#panelsStayOpen-collapseTwo",
+                  ariaExpanded: "false",
+                  ariaControls: "panelsStayOpen-collapseTwo",
+                },
+              },
+              body: {
+                id: "panelsStayOpen-collapseTwo",
+                class: "accordion-collapse collapse",
+                ariaLabelledby: "panelsStayOpen-headingTwo",
+              },
+            },
+            question: "Q.Do I get study materials for the SSC-CGL 2024 course?",
+            answer:
+              "Yes, you'll get study materials that are easy to understand and cover everything for the exam.",
+          },
+          {
+            accordion: {
+              head: {
+                id: "panelsStayOpen-headingThree",
+                button: {
+                  class: "accordion-button",
+                  dataBsTarget: "#panelsStayOpen-collapseThree",
+                  ariaExpanded: "false",
+                  ariaControls: "panelsStayOpen-collapseThree",
+                },
+              },
+              body: {
+                id: "panelsStayOpen-collapseThree",
+                class: "accordion-collapse collapse",
+                ariaLabelledby: "panelsStayOpen-headingThree",
+              },
+            },
+            question: "Q.How much does the SSC-CGL 2024 Mastery Program cost?",
+            answer:
+              "Absolutely. We have a special offer right now. Get in touch with us for the details.",
+          },
+          {
+            accordion: {
+              head: {
+                id: "panelsStayOpen-headingFour",
+                button: {
+                  class: "accordion-button",
+                  dataBsTarget: "#panelsStayOpen-collapseFour",
+                  ariaExpanded: "false",
+                  ariaControls: "panelsStayOpen-collapseFour",
+                },
+              },
+              body: {
+                id: "panelsStayOpen-collapseFour",
+                class: "accordion-collapse collapse",
+                ariaLabelledby: "panelsStayOpen-headingFour",
+              },
+            },
+            question: "Q.When are the classes for the SSC-CGL 2024 course?",
+            answer:
+              "You can choose from morning, afternoon, or evening classes to fit your schedule.",
+          },
+          {
+            accordion: {
+              head: {
+                id: "panelsStayOpen-headingFive",
+                button: {
+                  class: "accordion-button",
+                  dataBsTarget: "#panelsStayOpen-collapseFive",
+                  ariaExpanded: "false",
+                  ariaControls: "panelsStayOpen-collapseFive",
+                },
+              },
+              body: {
+                id: "panelsStayOpen-collapseFive",
+                class: "accordion-collapse collapse",
+                ariaLabelledby: "panelsStayOpen-headingFive",
+              },
+            },
+            question: "Q.What makes Education Academy different for SSC-CGL preparation?",
+            answer:
+              "We have great teachers, fun learning, personal attention, and a complete approach. Join us to increase your chances of success in SSC-CGL 2024!",
+          },
+        ],
+      },
+
+      buyCard: {
+        imageSrc: "/assets/img/5.course-view/cta-card.jpeg",
+        title: "Special Discount Price",
+        prices: {
+          discountedPrice: "RS 2449",
+          regularPrice: "RS 2999",
+          discountPercentage: "17% OFF",
+        },
+        button: {
+          link: "#",
+          buttonText: "Buy Now",
+        },
+      },
+    },
+    {
+      courseId: "ssc-cgl-online",
+      title: "SSC-CGL 2024 Mastery Program (Online)",
+      discountText: "Special Discounted Price",
+      price: {
+        discountedPrice: "RS 2449",
+        regularPrice: "RS 2999",
+        discountPercentage: "(17% OFF)",
+      },
+      content: [
+        "Limited Seats - Enroll Now!",
+        "Step into success with our SSC-CGL 2024 Mastery Program offered online at Education Academy. This program is tailored to equip individuals like you with the essential knowledge and skills to excel in the SSC Combined Graduate Level (CGL) examination.",
+        "Comprehensive Learning: Dive deep into the SSC-CGL 2024 syllabus, covering Math, English, Reasoning, and General Knowledge.",
+        "Expert Instructors: Learn from experienced instructors who specialize in their subjects, ensuring a clear understanding of each topic.",
+        "Interactive Sessions: Engage in live discussions, interactive sessions, and Q&A forums to enhance your comprehension and boost confidence.",
+        "Mock Tests: Regular practice tests in a simulated online environment prepare you for the actual SSC-CGL exam, improving time management and tracking progress.",
+        "Personalized Support: Benefit from personalized assistance and guidance in our online classes, fostering an environment for effective learning.Small Classes: Classes are small, so you get personal attention and help when you need it.",
+        "Comprehensive Study Materials: Receive user-friendly study materials prepared by our experts, covering all facets of the exam.",
+        "Emphasis on Fundamentals: Focus on building a strong foundation, ensuring proficiency in tackling various question types."
+      ],
+      batchDetails: {
+        title: "Batch Details",
+        items: [
+          { count: "Morning Batch", description: "9:00AM to 12:00" },
+          { count: "Afternoon Batch", description: "12:00 to 3:00PM" },
+          { count: "Evening Batch", description: "4:00PM to 7:00PM" },
+        ],
+      },
+      faculty: {
+        title: "Our Faculties",
+        items: [
+          {
+            name: "Ram Singh",
+            qualification: "MSC in Biochemistry",
+            experience: "13 Years",
+            imageSrc: "/assets/img/5.course-view/1.faculty.png",
+          },
+        ],
+      },
+      faq: {
+        title: "FAQ",
+        items: [
+          {
+            accordion: {
+              head: {
+                id: "panelsStayOpen-headingOne",
+                button: {
+                  class: "accordion-button",
+                  dataBsTarget: "#panelsStayOpen-collapseOne",
+                  ariaExpanded: "false",
+                  ariaControls: "panelsStayOpen-collapseOne",
+                },
+              },
+              body: {
+                id: "panelsStayOpen-collapseOne",
+                class: "accordion-collapse collapse show",
+                ariaLabelledby: "panelsStayOpen-headingOne",
+              },
+            },
+            question: "Q.Who teaches in the SSC-CGL 2024 online course?",
+            answer:
+              "Our skilled instructors, experts in their fields, are committed to making your online learning experience effective and enjoyable.",
+          },
+
+          {
+            accordion: {
+              head: {
+                id: "panelsStayOpen-headingTwo",
+                button: {
+                  class: "accordion-button",
+                  dataBsTarget: "#panelsStayOpen-collapseTwo",
+                  ariaExpanded: "false",
+                  ariaControls: "panelsStayOpen-collapseTwo",
+                },
+              },
+              body: {
+                id: "panelsStayOpen-collapseTwo",
+                class: "accordion-collapse collapse",
+                ariaLabelledby: "panelsStayOpen-headingTwo",
+              },
+            },
+            question: "Q.Are study materials provided for the SSC-CGL 2024 online course?",
+            answer:
+              "Yes, you'll receive comprehensive study materials designed for easy understanding and covering all exam topics.",
+          },
+          {
+            accordion: {
+              head: {
+                id: "panelsStayOpen-headingThree",
+                button: {
+                  class: "accordion-button",
+                  dataBsTarget: "#panelsStayOpen-collapseThree",
+                  ariaExpanded: "false",
+                  ariaControls: "panelsStayOpen-collapseThree",
+                },
+              },
+              body: {
+                id: "panelsStayOpen-collapseThree",
+                class: "accordion-collapse collapse",
+                ariaLabelledby: "panelsStayOpen-headingThree",
+              },
+            },
+            question: "Q.What is the cost of the SSC-CGL 2024 Mastery Program online?",
+            answer:
+              "Limited-time offers are available. Connect with us for detailed pricing information.",
+          },
+          {
+            accordion: {
+              head: {
+                id: "panelsStayOpen-headingFour",
+                button: {
+                  class: "accordion-button",
+                  dataBsTarget: "#panelsStayOpen-collapseFour",
+                  ariaExpanded: "false",
+                  ariaControls: "panelsStayOpen-collapseFour",
+                },
+              },
+              body: {
+                id: "panelsStayOpen-collapseFour",
+                class: "accordion-collapse collapse",
+                ariaLabelledby: "panelsStayOpen-headingFour",
+              },
+            },
+            question: "Q. How are the online classes scheduled for the SSC-CGL 2024 course?",
+            answer:
+              "Choose from morning, afternoon, or evening sessions to fit your schedule seamlessly.",
+          },
+          {
+            accordion: {
+              head: {
+                id: "panelsStayOpen-headingFive",
+                button: {
+                  class: "accordion-button",
+                  dataBsTarget: "#panelsStayOpen-collapseFive",
+                  ariaExpanded: "false",
+                  ariaControls: "panelsStayOpen-collapseFive",
+                },
+              },
+              body: {
+                id: "panelsStayOpen-collapseFive",
+                class: "accordion-collapse collapse",
+                ariaLabelledby: "panelsStayOpen-headingFive",
+              },
+            },
+            question: "Q.What makes Education Academy different for SSC-CGL preparation?",
+            answer:
+              "We have great teachers, fun learning, personal attention, and a complete approach. Join us to increase your chances of success in SSC-CGL 2024!",
+          },
+        ],
+      },
+
+      buyCard: {
+        imageSrc: "/assets/img/5.course-view/cta-card.jpeg",
+        title: "Special Discount Price",
+        prices: {
+          discountedPrice: "RS 2449",
+          regularPrice: "RS 2999",
+          discountPercentage: "17% OFF",
+        },
+        button: {
+          link: "#",
+          buttonText: "Buy Now",
+        },
+      },
+    },
+    {
+      courseId: "ssc-gd-offline",
+      title: "SSC-GD 2024 Mastery Program (Offline)",
+      discountText: "Special Discounted Price",
+      price: {
+        discountedPrice: "RS 2449",
+        regularPrice: "RS 2999",
+        discountPercentage: "(17% OFF)",
+      },
+      content: [
+        "Limited Seats - Enroll Now!",
+        "Join our SSC-GD 2024 Mastery Program at Education Academy and pave the way for success in the Staff Selection Commission - General Duty (SSC-GD) examination. This program is meticulously designed to equip aspirants like you with the necessary knowledge and skills required for the exam.",
+        "Thorough Coverage: Dive into the SSC-GD 2024 syllabus comprehensively, focusing on General Intelligence & Reasoning, General Knowledge & General Awareness, Elementary Mathematics, and English/Hindi.",
+        "Experienced Instructors: Learn from experienced instructors, experts in their respective subjects, ensuring a clear understanding of each topic.",
+        "Interactive Learning: Engage in live discussions, interactive sessions, and doubt-clearing classes to enhance your understanding and boost confidence.",
+        "Practice Tests: Regular mock tests simulate the actual SSC-GD exam conditions, aiding in time management and tracking your progress effectively.",
+        "Personalized Attention: Enjoy small batch sizes for personalized attention, ensuring your individual learning needs are addressed.",
+        "Study Material: Receive comprehensive study material curated by our expert faculty, covering the latest exam patterns and trends.",
+        "Emphasis on Basics: Focus on building a strong foundation, enabling you to tackle various question types confidently."
+      ],
+      batchDetails: {
+        title: "Batch Details",
+        items: [
+          { count: "Morning Batch", description: "9:00AM to 12:00" },
+          { count: "Afternoon Batch", description: "12:00 to 3:00PM" },
+          { count: "Evening Batch", description: "4:00PM to 7:00PM" },
+        ],
+      },
+      faculty: {
+        title: "Our Faculties",
+        items: [
+          {
+            name: "Ram Singh",
+            qualification: "MSC in Biochemistry",
+            experience: "13 Years",
+            imageSrc: "/assets/img/5.course-view/1.faculty.png",
+          },
+        ],
+      },
+      faq: {
+        title: "FAQ",
+        items: [
+          {
+            accordion: {
+              head: {
+                id: "panelsStayOpen-headingOne",
+                button: {
+                  class: "accordion-button",
+                  dataBsTarget: "#panelsStayOpen-collapseOne",
+                  ariaExpanded: "false",
+                  ariaControls: "panelsStayOpen-collapseOne",
+                },
+              },
+              body: {
+                id: "panelsStayOpen-collapseOne",
+                class: "accordion-collapse collapse show",
+                ariaLabelledby: "panelsStayOpen-headingOne",
+              },
+            },
+            question: "Q.Who are the instructors for the SSC-GD 2024 offline course?",
+            answer:
+              "Our experienced instructors are subject matter experts committed to providing quality education.",
+          },
+
+          {
+            accordion: {
+              head: {
+                id: "panelsStayOpen-headingTwo",
+                button: {
+                  class: "accordion-button",
+                  dataBsTarget: "#panelsStayOpen-collapseTwo",
+                  ariaExpanded: "false",
+                  ariaControls: "panelsStayOpen-collapseTwo",
+                },
+              },
+              body: {
+                id: "panelsStayOpen-collapseTwo",
+                class: "accordion-collapse collapse",
+                ariaLabelledby: "panelsStayOpen-headingTwo",
+              },
+            },
+            question: "Q.Is study material provided for the SSC-GD 2024 offline course?",
+            answer:
+              "Yes, you'll receive comprehensive study materials curated by our expert faculty.",
+          },
+          {
+            accordion: {
+              head: {
+                id: "panelsStayOpen-headingThree",
+                button: {
+                  class: "accordion-button",
+                  dataBsTarget: "#panelsStayOpen-collapseThree",
+                  ariaExpanded: "false",
+                  ariaControls: "panelsStayOpen-collapseThree",
+                },
+              },
+              body: {
+                id: "panelsStayOpen-collapseThree",
+                class: "accordion-collapse collapse",
+                ariaLabelledby: "panelsStayOpen-headingThree",
+              },
+            },
+            question: "Q.What is the fee structure for the SSC-GD 2024 Mastery Program?",
+            answer:
+              "Connect with us for detailed fee information and exclusive offers.",
+          },
+          {
+            accordion: {
+              head: {
+                id: "panelsStayOpen-headingFour",
+                button: {
+                  class: "accordion-button",
+                  dataBsTarget: "#panelsStayOpen-collapseFour",
+                  ariaExpanded: "false",
+                  ariaControls: "panelsStayOpen-collapseFour",
+                },
+              },
+              body: {
+                id: "panelsStayOpen-collapseFour",
+                class: "accordion-collapse collapse",
+                ariaLabelledby: "panelsStayOpen-headingFour",
+              },
+            },
+            question: "Q.How are the classes scheduled for the SSC-GD 2024 course?",
+            answer:
+              "Choose from morning, afternoon, or evening batches to accommodate various schedules.",
+          },
+          {
+            accordion: {
+              head: {
+                id: "panelsStayOpen-headingFive",
+                button: {
+                  class: "accordion-button",
+                  dataBsTarget: "#panelsStayOpen-collapseFive",
+                  ariaExpanded: "false",
+                  ariaControls: "panelsStayOpen-collapseFive",
+                },
+              },
+              body: {
+                id: "panelsStayOpen-collapseFive",
+                class: "accordion-collapse collapse",
+                ariaLabelledby: "panelsStayOpen-headingFive",
+              },
+            },
+            question: "Q.What makes Education Academy unique in SSC-GD preparation?",
+            answer:
+              "Our commitment to experienced faculty, interactive learning, personalized attention, and a comprehensive approach distinguishes us. Join us to enhance your chances of success in SSC-GD 2024!",
+          },
+        ],
+      },
+
+      buyCard: {
+        imageSrc: "/assets/img/5.course-view/cta-card.jpeg",
+        title: "Special Discount Price",
+        prices: {
+          discountedPrice: "RS 2449",
+          regularPrice: "RS 2999",
+          discountPercentage: "17% OFF",
+        },
+        button: {
+          link: "#",
+          buttonText: "Buy Now",
+        },
+      },
+    },
+    {
+      courseId: "ssc-gd-online",
+      title: "SSC-GD 2024 Mastery Program (Online)",
+      discountText: "Special Discounted Price",
+      price: {
+        discountedPrice: "RS 2449",
+        regularPrice: "RS 2999",
+        discountPercentage: "(17% OFF)",
+      },
+      content: [
+        "Limited Seats - Enroll Now!",
+        "Join our SSC-GD 2024 Mastery Program online at Education Academy and prepare for success in the Staff Selection Commission - General Duty (SSC-GD) examination. This program is thoughtfully crafted to equip aspirants like you with the necessary knowledge and skills required for the exam.",
+        "Comprehensive Online Learning: Cover the SSC-GD 2024 syllabus online, focusing on General Intelligence & Reasoning, General Knowledge & General Awareness, Elementary Mathematics, and English/Hindi.",
+        "Expert Online Instructors: Learn from experienced instructors who are experts in their respective subjects, ensuring a clear understanding of each topic in the online learning environment.",
+        "Interactive Online Sessions: Engage in live discussions, interactive sessions, and doubt-clearing classes to enhance your understanding and boost confidence, all from the comfort of your home.",
+        "Online Practice Tests: Regular online mock tests simulate the actual SSC-GD exam conditions, aiding in time management and tracking your progress effectively.",
+        "Personalized Online Support: Enjoy small online class sizes for personalized attention, ensuring your individual learning needs are addressed during the virtual classes.",
+        "Online Study Material: Receive comprehensive study material curated by our expert faculty, covering the latest online exam patterns and trends.",
+        "Emphasis on Online Basics: Focus on building a strong online learning foundation, enabling you to tackle various question types confidently."
+      ],
+      batchDetails: {
+        title: "Batch Details",
+        items: [
+          { count: "Morning Batch", description: "9:00AM to 12:00" },
+          { count: "Afternoon Batch", description: "12:00 to 3:00PM" },
+          { count: "Evening Batch", description: "4:00PM to 7:00PM" },
+        ],
+      },
+      faculty: {
+        title: "Our Faculties",
+        items: [
+          {
+            name: "Ram Singh",
+            qualification: "MSC in Biochemistry",
+            experience: "13 Years",
+            imageSrc: "/assets/img/5.course-view/1.faculty.png",
+          },
+        ],
+      },
+      faq: {
+        title: "FAQ",
+        items: [
+          {
+            accordion: {
+              head: {
+                id: "panelsStayOpen-headingOne",
+                button: {
+                  class: "accordion-button",
+                  dataBsTarget: "#panelsStayOpen-collapseOne",
+                  ariaExpanded: "false",
+                  ariaControls: "panelsStayOpen-collapseOne",
+                },
+              },
+              body: {
+                id: "panelsStayOpen-collapseOne",
+                class: "accordion-collapse collapse show",
+                ariaLabelledby: "panelsStayOpen-headingOne",
+              },
+            },
+            question: "Q.Who are the instructors for the SSC-GD 2024 offline course?",
+            answer:
+              "Our experienced instructors are subject matter experts committed to providing quality education.",
+          },
+
+          {
+            accordion: {
+              head: {
+                id: "panelsStayOpen-headingTwo",
+                button: {
+                  class: "accordion-button",
+                  dataBsTarget: "#panelsStayOpen-collapseTwo",
+                  ariaExpanded: "false",
+                  ariaControls: "panelsStayOpen-collapseTwo",
+                },
+              },
+              body: {
+                id: "panelsStayOpen-collapseTwo",
+                class: "accordion-collapse collapse",
+                ariaLabelledby: "panelsStayOpen-headingTwo",
+              },
+            },
+            question: "Q.Is study material provided for the SSC-GD 2024 online course?",
+            answer:
+              "Yes, you'll receive comprehensive online study materials curated by our expert faculty.",
+          },
+          {
+            accordion: {
+              head: {
+                id: "panelsStayOpen-headingThree",
+                button: {
+                  class: "accordion-button",
+                  dataBsTarget: "#panelsStayOpen-collapseThree",
+                  ariaExpanded: "false",
+                  ariaControls: "panelsStayOpen-collapseThree",
+                },
+              },
+              body: {
+                id: "panelsStayOpen-collapseThree",
+                class: "accordion-collapse collapse",
+                ariaLabelledby: "panelsStayOpen-headingThree",
+              },
+            },
+            question: "Q.What is the fee structure for the SSC-GD 2024 Mastery Program online?",
+            answer:
+              "Connect with us for detailed fee information and exclusive offers.",
+          },
+          {
+            accordion: {
+              head: {
+                id: "panelsStayOpen-headingFour",
+                button: {
+                  class: "accordion-button",
+                  dataBsTarget: "#panelsStayOpen-collapseFour",
+                  ariaExpanded: "false",
+                  ariaControls: "panelsStayOpen-collapseFour",
+                },
+              },
+              body: {
+                id: "panelsStayOpen-collapseFour",
+                class: "accordion-collapse collapse",
+                ariaLabelledby: "panelsStayOpen-headingFour",
+              },
+            },
+            question: "Q.How are the online classes scheduled for the SSC-GD 2024 course?",
+            answer:
+              "Choose from morning, afternoon, or evening online sessions to fit your schedule seamlessly.",
+          },
+          {
+            accordion: {
+              head: {
+                id: "panelsStayOpen-headingFive",
+                button: {
+                  class: "accordion-button",
+                  dataBsTarget: "#panelsStayOpen-collapseFive",
+                  ariaExpanded: "false",
+                  ariaControls: "panelsStayOpen-collapseFive",
+                },
+              },
+              body: {
+                id: "panelsStayOpen-collapseFive",
+                class: "accordion-collapse collapse",
+                ariaLabelledby: "panelsStayOpen-headingFive",
+              },
+            },
+            question: "Q.What makes Education Academy unique in SSC-GD preparation?",
+            answer:
+              "Our commitment to experienced online faculty, interactive virtual learning, personalized online attention, and a comprehensive approach distinguishes us. Join us online to enhance your chances of success in SSC-GD 2024!",
+          },
+        ],
+      },
+
+      buyCard: {
+        imageSrc: "/assets/img/5.course-view/cta-card.jpeg",
+        title: "Special Discount Price",
+        prices: {
+          discountedPrice: "RS 2449",
+          regularPrice: "RS 2999",
+          discountPercentage: "17% OFF",
+        },
+        button: {
+          link: "#",
+          buttonText: "Buy Now",
+        },
+      },
+    },
+    
+    
     
   ],
   faculty :[
