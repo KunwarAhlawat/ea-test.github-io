@@ -4,7 +4,7 @@ const Data = {
       id: "10",
       homePageCourse: {
         title: "NEET",
-        imgSrc: "/assets/img/4.course-list/neet.png",
+        imgSrc: "/assets/img/4.course-list/IIIT.png",
         details: [
           { icon: "bi bi-check-square-fill", text: "Class 12" },
           { icon: "bi bi-check-square-fill", text: "Class 12" },
@@ -17,8 +17,8 @@ const Data = {
       },
 
       courseListPage: {
-        imgSrc2: "/assets/img/4.course-list/neet.png",
-        title2: "JEE Ultimate Crash Course",
+        imgSrc2: "/assets/img/4.course-list/IIIT.png",
+        title2: "IIT- JEE LATEST BATCHES",
         details2: "Course Details:",
         includedText: {
           left: [
@@ -45,7 +45,7 @@ const Data = {
       id: "11",
       homePageCourse: {
         title: "NEET",
-        imgSrc: "/assets/img/4.course-list/neet.png",
+        imgSrc: "/assets/img/4.course-list/IIIT.png",
         details: [
           { icon: "bi bi-check-square-fill", text: "Class 12" },
           { icon: "bi bi-check-square-fill", text: "Class 12" },
@@ -58,8 +58,8 @@ const Data = {
       },
 
       courseListPage: {
-        imgSrc2: "/assets/img/4.course-list/neet.png",
-        title2: "JEE Ultimate Crash Course",
+        imgSrc2: "/assets/img/4.course-list/IIIT.png",
+        title2: "NEET BATCHES 2024",
         details2: "Course Details:",
         includedText: {
           left: [
@@ -86,7 +86,7 @@ const Data = {
       id: "12",
       homePageCourse: {
         title: "NEET",
-        imgSrc: "/assets/img/4.course-list/neet.png",
+        imgSrc: "/assets/img/4.course-list/IIIT.png",
         details: [
           { icon: "bi bi-check-square-fill", text: "Class 12" },
           { icon: "bi bi-check-square-fill", text: "Class 12" },
@@ -99,8 +99,8 @@ const Data = {
       },
 
       courseListPage: {
-        imgSrc2: "/assets/img/4.course-list/neet.png",
-        title2: "JEE Ultimate Crash Course",
+        imgSrc2: "/assets/img/4.course-list/IIIT.png",
+        title2: "CAT LATEST BATCHES",
         details2: "Course Details:",
         includedText: {
           left: [
@@ -126,23 +126,22 @@ const Data = {
   ],
   banner: [
     {
-      imgSrc: "/assets/img/2.home/1.slider/img-1.webp",
+      imgSrc: "/assets/img/2.home/1.slider/neet2.png",
       altText: "Slide 1",
-      link: "/assets/img/2.home/1.slider/img-1.webp",
+      link: "/courseview/10",
       class: "active",
     },
     {
-      imgSrc: "/assets/img/2.home/1.slider/img-2.webp",
+      imgSrc: "/assets/img/2.home/1.slider/iije.png",
       altText: "Slide 2",
+      link: "/courseview/11",
     },
     {
-      imgSrc: "/assets/img/2.home/1.slider/img-3.webp",
+      imgSrc: "/assets/img/2.home/1.slider/cat1.png",
       altText: "Slide 3",
+      link: "/courseview/12",
     },
-    {
-      imgSrc: "/assets/img/2.home/1.slider/img-4.webp",
-      altText: "Slide 4",
-    },
+    
   ],
   courseView: [
     {
@@ -167,9 +166,11 @@ const Data = {
         ],
       },
       faculty: {
+    
         title: "Our Faculties",
         items: [
           {
+                facultyId : "01",
             name: "Ram Singh",
             qualification: "MSC in Biochemistry",
             experience: "13 Years",
@@ -433,6 +434,7 @@ const Data = {
   ],
   faculty :[
     {
+      facultyId : "01",
       name: "Dr. Manoj Kumar",
       position: "Professor of Mathematics",
       experience: "Experience",
@@ -467,30 +469,90 @@ submenu:[  { id: "online-iit", text: "Online", link: "courseView.html" },
 },
 
 
-{ id: "Competition", text: "Competition", link: "coure-view.html", 
-  submenu:[  
-    { id: "up-police", text: "Up Policee", link: "courseView.html",
-    submenu2:[  
-      { id: "up-police-online", text: "Online", link: "courseView.html" },
-      { id: "up-police-offline", text: "Offline", link: "courseView.html" }] 
-  },
-
-]
+{
+  id: "competition",
+  text: "COMPETITIVE EXAMS",
+  link: "course-view.html",
+  submenu: [
+    {
+      id: "up-police",
+      text: "UP Police",
+      link: "courseView.html",
+      submenu2: [
+        {
+          id: "up-police-online",
+          text: "Online",
+          link: "courseView.html"
+        },
+        {
+          id: "up-police-offline",
+          text: "Offline",
+          link: "courseView.html"
+        }
+      ]
+    },
+    {
+      id: "TET",
+      text: "TET",
+      link: "courseView.html",
+      submenu2: [
+        {
+          id: "tet-online",
+          text: "Online",
+          link: "courseView.html"
+        },
+        {
+          id: "tet-offline",
+          text: "Offline",
+          link: "courseView.html"
+        }
+      ]
+    },
+    {
+      id: "SUPER-TET",
+      text: "SUPER TET",
+      link: "courseView.html",
+      submenu2: [
+        {
+          id: "super-tet-online",
+          text: "Online",
+          link: "courseView.html"
+        },
+        {
+          id: "super-tet-offline",
+          text: "Offline",
+          link: "courseView.html"
+        }
+      ]
+    }
+  ]
 },
 
 {
-    id: "school",
-    text: "School",
-    link: "coure-view.html",
-    submenu: [
-      { id: "class-9th", text: "class 9th", link: "courseView.html",
-      submenu2:[  
-        { id: "class-9th-online", text: "Online", link: "courseView.html"},
-        { id: "class-9th-offline", text: "Offline", link: "courseView.html" },]
-  
-      }
-    ],
-  },
+  id: "school",
+  text: "SCHOOL",
+  link: "course-view.html",
+  submenu: [
+    {
+      id: "class-9th",
+      text: "Class 9th",
+      link: "courseView.html",
+      submenu2: [
+        {
+          id: "class-9th-online",
+          text: "Online",
+          link: "courseView.html"
+        },
+        {
+          id: "class-9th-offline",
+          text: "Offline",
+          link: "courseView.html"
+        }
+      ]
+    }
+  ]
+}
+
 ];
 
 module.exports = { Data, menuItems };

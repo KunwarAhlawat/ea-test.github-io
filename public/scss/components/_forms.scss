@@ -1,13 +1,24 @@
+.modal-content{
+  border: none;
+  border-radius: 0;
+}
+.formClose{
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  z-index:2;
+}
 .registerForm{
     
     background-color:var(--primary-color);
     margin: auto;
-    
+        padding: 49px 34px 9px;
+
     position: relative;
-    padding: 0px 10px;
-    width: 400px;
+    // padding: 0px 10px;
+    // width: 400px;
     
-    border: 1px solid rgba(0, 0, 0, 0.199);
+    // border: 1px solid rgba(0, 0, 0, 0.199);
     .logo{
       border-radius: 50%;
       height: 80px;
@@ -19,6 +30,7 @@
       transform: translate(-50% , -50%);
       overflow: hidden;
       border: 3px solid white;
+      background : white;
       img{
         object-fit: cover;
         width: 100%;
@@ -27,13 +39,13 @@
     }
     form{
       
-      input{
+      input,textarea{
         width: 100%;
-        height: 62px;
-        font-size: 1.6rem;
-        margin: 10px  0;
+        border : $borderInput;
+        font-size: 1.4rem;
+        margin: 5px  0;
         &::placeholder{
-          font-size: 1.2rem;
+          font-size: 12px;
           color: #00000086;
           padding-left: 5px;
         }
@@ -42,7 +54,8 @@
         }
       }
       label{
-        font-size: 1.6rem;
+        font-size: 14px;
+        font-weight: 500;
       }
       button{
         background-color: var(--accent-color)!important;

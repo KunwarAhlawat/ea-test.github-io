@@ -22,6 +22,8 @@ const courseRoute = require("./routes/courseRoute")
 const courseViewRoute = require("./routes/courseViewRoute")
 const adminRoute = require('./routes/adminRoute');
 const notFoundRoute = require("./routes/notFoundRoute")
+const contactRoute = require("./routes/contactRoute")
+const aboutRoute = require("./routes/aboutRoute")
 
 const facultyRoute = require('./routes/facultyRoute');
 
@@ -32,6 +34,8 @@ app.use("/" , courseRoute)
 app.use("/" , courseViewRoute)
 app.use('/', facultyRoute);
 app.use('/', adminRoute);
+app.use('/', aboutRoute);
+app.use('/', contactRoute);
 app.use("/" , notFoundRoute)
 
 const port = 3000

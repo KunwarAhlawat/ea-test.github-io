@@ -1,7 +1,10 @@
 //about area style
 .home-about-area {
 margin: 50px;
-
+        
+      @media #{$tab}{
+        margin: 50px 0;
+      }
     .home-about-text {
 
         display: flex;
@@ -107,7 +110,7 @@ margin: 50px;
     .course-item {
         
         border: $border1;
-        box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+      
         border-radius: 5px;
         position :relative;
         background-color: white;
@@ -123,7 +126,9 @@ margin: 50px;
             }
 
         }
-
+        &:hover{
+              box-shadow: $shadow-2;
+        }
         .course-item-text {
             padding: 10px 20px 0px 20px;
             display: flex;
@@ -249,7 +254,8 @@ margin: 50px;
         text-align: center;
         padding: 15px 20px;
         border-radius: 5px;
-        box-shadow: $shadow-1;
+        background-image: linear-gradient(220.55deg, #FFD439 0%, #FF7A00 100%);
+
 
         h5 {
             font-weight: $bold;

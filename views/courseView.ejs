@@ -105,6 +105,7 @@
 
                                 
                             <% courseViewData.faculty.items.forEach(text => { %>
+                                <a href="/faculty/<%= text.facultyId %>">
                                 <div class="faculty-item">
                                     <div class="faculty-text">
                                         <h5><%= text.name %></h5>
@@ -118,6 +119,7 @@
                                         <img width="20" src="<%= text.imageSrc %>" alt="" class="img-fluid">
                                     </div>
                                 </div>
+                            </a>
                            <%  }) %> 
  
                              
@@ -186,7 +188,7 @@
                                     <li><%= courseViewData.buyCard.prices.regularPrice %></li>
                                     <li><%= courseViewData.buyCard.prices.discountPercentage %></li>
                                 </ul>
-                                <a href="<%= courseViewData.buyCard.button.link %>"><button class="cta-button"><%= courseViewData.buyCard.button.buttonText %></button></a>
+                                <a href="<%= courseViewData.buyCard.button.link %>"><button class="secondary-button"><%= courseViewData.buyCard.button.buttonText %></button></a>
                             </div>
                         </div>
                     </div>
@@ -210,7 +212,7 @@
                     <p>Creating new benchmarks in learning experiences</p>
                 </div>
                 <div class="cta">
-                    <button class="cta-button" data-bs-toggle="modal" data-bs-target="#exampleModal">Get Started</button>
+                    <button class="primary-button " data-bs-toggle="modal" data-bs-target="#exampleModal">Get Started</button>
                 </div>
             </div>
         </div>

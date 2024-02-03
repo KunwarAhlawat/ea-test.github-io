@@ -27,9 +27,9 @@
         margin:5px 0;
         stroke : 2px black;
     }
-    p{
-       
-    }
+    
+    
+    
 }
 
 .section-subtitle{
@@ -40,7 +40,9 @@
     max-width: 70%;
     text-align: center;
     margin: auto;
-    
+    @media #{$tab}{
+        max-width: 100%;
+      }
 
 }
 .section-subtitle1{
